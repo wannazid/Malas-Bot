@@ -90,7 +90,7 @@ python3 malasbot.py
 - https://hadi-api.herokuapp.com/
 - https://api.akuari.my.id
 - https://dog.ceo/api
-- httpshttps://thecatapi.com/api
+- https://thecatapi.com/api
 
 # Remember
 File malasbot.py dan folder menu harus sama directory
