@@ -28,6 +28,9 @@ python3 malasbot.py
 | TextPro V2|✅|
 | TextPro V3|✅|
 | EPhoto BlackPink|✅|
+| Logo Ninja V1|✅|
+| Logo Ninja V2|✅|
+| Logo Ninja V3|✅|
 
 | Downloader |Yes|
 | ------------- | ------------- |
@@ -54,6 +57,7 @@ python3 malasbot.py
 | Random Foto Cewe Cantik|✅|
 | Random Foto Cosplay Anime|✅|
 | Arti Nama|✅|
+| Kata² Jaman Now|✅|
 
 | Pengetahuan |Yes|
 | ------------- | ------------- |
@@ -102,6 +106,9 @@ File malasbot.py dan folder menu harus sama directory
 # Blog & Web Tools
 - https://www.malastech.my.id
 - https://rasenmedia.my.id
+
+# Contact & Report Error
+- wa.me/6288226946972
 
 # Contributor Malas Bot
 1. Ridwan Nazarudin
