@@ -84,6 +84,25 @@ python3 malasbot.py
 | Md5 Encode|✅|
 | Sha256 Encode|✅|
 
+# Use API 
+- https://rasenmedia.my.id
+- https://freerestapi.herokuapp.com
+- https://hadi-api.herokuapp.com/
+- https://api.akuari.my.id
+- https://dog.ceo/api
+- httpshttps://thecatapi.com/api
+
+# Remember
+File malasbot.py dan folder menu harus sama directory
+
+# Blog & Web Tools
+- https://www.malastech.my.id
+- https://rasenmedia.my.id
+
+# Contributor Malas Bot
+1. Ridwan Nazarudin
+2. Afif Rahman Firmansyah
+3. Muhammad Ridho Ilahi
 
 
 
