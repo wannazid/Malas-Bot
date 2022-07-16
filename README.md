@@ -1,5 +1,5 @@
 # Malas Bot
-Bot Telegram dengan menggunakan python, dan mempermudah pengguna yang ingin coba membuat bot telegram sendiri.
+Bot Telegram dengan menggunakan bahasa pemrograman python3, dan mempermudah pengguna yang ingin coba membuat bot telegram sendiri.
 
 # Installation
 ```bash
@@ -16,7 +16,6 @@ python3 malasbot.py
 ```
 
 # Feature
-
 
 | Image |Yes|
 | ------------- | ------------- |
@@ -91,6 +90,11 @@ python3 malasbot.py
 - https://api.akuari.my.id
 - https://dog.ceo/api
 - https://thecatapi.com/api
+- https://api.rei.my.id
+
+# Recode Malas Bot
+Jika ingin merubah menu dan nama bot silahkan di folder menu di file json
+dan kalian bebas edit semau kalian tapi jangan hapus creator dari MalasBot
 
 # Remember
 File malasbot.py dan folder menu harus sama directory
