@@ -108,7 +108,7 @@ File malasbot.py dan folder menu harus sama directory
 - https://rasenmedia.my.id
 
 # Contact & Report Error
-- wa.me/6288226946972
+- https://wa.me/6288226946972
 
 # Contributor Malas Bot
 1. Ridwan Nazarudin
