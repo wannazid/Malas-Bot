@@ -1,5 +1,7 @@
-# Malas Bot
+# Malas Bot 
 Bot Telegram dengan menggunakan bahasa pemrograman python3, dan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
+
+# Version : 0.1
 
 # Installation
 ```bash
