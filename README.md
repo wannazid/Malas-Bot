@@ -1,5 +1,20 @@
 # Malas Bot
 Bot Telegram dengan menggunakan python, dan mempermudah pengguna yang ingin coba membuat bot telegram sendiri.
+
+# Cara Install
+```bash
+git clone https://github.com/wannazid/Malas-Bot
+```
+```bash
+cd Malas-Bot
+```
+```bash
+pip install -r req.txt
+```
+```bash
+python3 malasbot.py
+```
+
 # Feature
 
 
