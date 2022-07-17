@@ -1,4 +1,4 @@
-![alt text]('https://github.com/wannazid/Malas-Bot/blob/main/IMG_20220717_211701.jpg')
+![alt text](https://github.com/wannazid/Malas-Bot/blob/main/IMG_20220717_211701.jpg)
 # Malas Bot 
 Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
 
