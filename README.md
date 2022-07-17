@@ -1,5 +1,5 @@
 # Malas Bot 
-Bot Telegram yang akan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
+Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
 
 # Version : 0.1
 
