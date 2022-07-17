@@ -2,4 +2,4 @@ requests
 aiogram
 qrcode
 hashlib
-base64
+pillow
