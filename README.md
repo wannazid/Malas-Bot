@@ -33,6 +33,7 @@ python3 malasbot.py
 | Logo Ninja V1|✅|
 | Logo Ninja V2|✅|
 | Logo Ninja V3|✅|
+| Text PornHub|✅|
 
 | Downloader |Yes|
 | ------------- | ------------- |
@@ -88,6 +89,11 @@ python3 malasbot.py
 | Base64 Decode|✅|
 | Md5 Encode|✅|
 | Sha256 Encode|✅|
+
+# Tested On
+- Android (termux)
+- Ubuntu 18.04 LTS (linux)
+- Windows 10 Pro
 
 # Use API 
 - https://rasenmedia.my.id
