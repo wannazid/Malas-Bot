@@ -90,10 +90,9 @@ python3 malasbot.py
 | Md5 Encode|✅|
 | Sha256 Encode|✅|
 
-# Tested On
-- Android (termux)
-- Ubuntu 18.04 LTS (linux)
-- Windows 10 Pro
+# Support
+- Linux (rekomendasi)
+- Windows
 
 # Use API 
 - https://rasenmedia.my.id
@@ -105,11 +104,7 @@ python3 malasbot.py
 - https://api.rei.my.id
 
 # Recode Malas Bot
-Jika ingin merubah menu dan nama bot silahkan di folder menu di file json
-dan kalian bebas edit semau kalian tapi jangan hapus creator dari MalasBot
-
-# Remember
-File malasbot.py dan folder menu harus sama directory
+Ubah menu dan fitur di line akhir tetap teliti agar tidak error
 
 # Blog & Web Tools
 - https://www.malastech.my.id
@@ -122,9 +117,3 @@ File malasbot.py dan folder menu harus sama directory
 1. Ridwan Nazarudin
 2. Afif Rahman Firmansyah
 3. Muhammad Ridho Ilahi
-
-
-
-
-
-
