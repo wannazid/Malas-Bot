@@ -16,6 +16,11 @@ pip install -r req.txt
 ```bash
 python3 malasbot.py
 ```
+- Mendapatkan Acces Token
+1. Buka @BotFather di telegram
+2. Create new bot, Masukan nama Bot
+3. Buat username Bot (tes_bot)
+4. Salin acces token dan tinggal di masukan
 
 # Feature
 
