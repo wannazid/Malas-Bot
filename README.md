@@ -11,7 +11,7 @@ git clone https://github.com/wannazid/Malas-Bot
 cd Malas-Bot
 ```
 ```bash
-pip install -r req.txt
+pip3 install -r req.txt
 ```
 ```bash
 python3 malasbot.py
