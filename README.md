@@ -100,6 +100,11 @@ python3 malasbot.py
 - Linux (rekomendasi)
 - Windows
 
+# On Bot Every Day
+- VPS
+- Remote Desktop Protocol
+- Heroku
+
 # Use API 
 - https://rasenmedia.my.id
 - https://freerestapi.herokuapp.com
