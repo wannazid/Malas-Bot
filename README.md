@@ -142,7 +142,7 @@ python3 malasbot.py
 - https://api.rei.my.id
 
 # Recode Malas Bot
-Ubah menu dan fitur di line akhir tetap teliti agar tidak error
+Merubah menu,about bisa di folder menu/about main.py
 
 # Blog & Web Tools
 - https://www.malastech.my.id
