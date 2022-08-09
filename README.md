@@ -8,6 +8,7 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - NSFW
 - Pinterest Download
 - New Member,Out Member Group
+- Quotes Anime
 
 # Installation
 ```bash
@@ -56,13 +57,17 @@ python3 malasbot.py
 | Tiktok Downloader|✅|
 | Musik Tiktok Downloader|✅|
 | Instagram Downloader (photo/video)|✅|
+| Pinterest Downloader|✅|
 
 | NSFW |Yes|
 | ------------- | ------------- |
 | Hentai|✅|
 | Loli|✅|
 | Yuri|✅|
-
+| BDSM|✅|
+| GangBang|✅|
+| Blowjob|✅|
+| Neko|✅|
 
 | Anime |Yes|
 | ------------- | ------------- |
