@@ -140,6 +140,7 @@ python3 malasbot.py
 - https://dog.ceo/api
 - https://thecatapi.com/api
 - https://api.rei.my.id
+- https://raku-web.herokuapp.com
 
 # Recode Malas Bot
 Merubah menu,about bisa di folder menu/about main.py
@@ -149,7 +150,7 @@ Merubah menu,about bisa di folder menu/about main.py
 - https://rasenmedia.my.id
 
 # Contact & Report Error
-- https://wa.me/6288226946972
+- https://wa.me/6281328303820
 
 # Contributor Malas Bot
 1. Ridwan Nazarudin
