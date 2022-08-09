@@ -9,6 +9,7 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - Pinterest Download
 - New Member,Out Member Group
 - Quotes Anime
+- Couple PP
 
 # Installation
 ```bash
@@ -92,6 +93,7 @@ python3 malasbot.py
 | Random Foto Cosplay Anime|✅|
 | Arti Nama|✅|
 | Kata² Jaman Now|✅|
+| Random Foto Couple Cowo/Cewe|✅|
 
 | Pengetahuan |Yes|
 | ------------- | ------------- |
