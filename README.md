@@ -40,12 +40,24 @@ python3 malasbot.py
 | Logo Ninja V2|✅|
 | Logo Ninja V3|✅|
 | Text PornHub|✅|
+| Flaming Text|✅|
+| Flaming Text V2|✅|
+| Flaming Text V3|✅|
+| Flaming Text V4|✅|
+| Flaming Text V5|✅|
 
 | Downloader |Yes|
 | ------------- | ------------- |
 | Tiktok Downloader|✅|
 | Musik Tiktok Downloader|✅|
 | Instagram Downloader (photo/video)|✅|
+
+| NSFW |Yes|
+| ------------- | ------------- |
+| Hentai|✅|
+| Loli|✅|
+| Yuri|✅|
+
 
 | Anime |Yes|
 | ------------- | ------------- |
