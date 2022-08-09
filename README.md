@@ -79,6 +79,9 @@ python3 malasbot.py
 | Random Foto Megumin|✅|
 | Wallpaper Anime|✅|
 | Random Gambar Husbu|✅|
+| Random Quotes Anime|✅|
+| Random Quotes Anime V2|✅|
+
 
 | Seneng-Seneng |Yes|
 | ------------- | ------------- |
