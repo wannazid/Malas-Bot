@@ -2,7 +2,7 @@
 # Malas Bot 
 Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
 
-# Version : 0.2
+![](https://img.shields.io/badge/MalasBot-Version%201.2.0-orange)
 ## What's New?
 - Flaming Text
 - NSFW
