@@ -12,6 +12,9 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - Couple PP
 
 # Installation
+![](https://img.shields.io/badge/Support%20on-Windows-brightgreen)
+![](https://img.shields.io/badge/Support%20on-Linux-brightgreen)
+![](https://img.shields.io/badge/Support%20on-Android-brightgreen)
 ```bash
 git clone https://github.com/wannazid/Malas-Bot
 ```
@@ -123,16 +126,12 @@ python3 malasbot.py
 | Md5 Encode|✅|
 | Sha256 Encode|✅|
 
-# Support
-- Linux (rekomendasi)
-- Windows
-
-# On Bot Every Day
+## On Bot Every Day
 - VPS
 - Remote Desktop Protocol
 - Heroku
 
-# Use API 
+## Use API 
 - https://rasenmedia.my.id
 - https://freerestapi.herokuapp.com
 - https://hadi-api.herokuapp.com/
@@ -142,17 +141,17 @@ python3 malasbot.py
 - https://api.rei.my.id
 - https://raku-web.herokuapp.com
 
-# Recode Malas Bot
+## Recode Malas Bot
 Merubah menu,about bisa di folder menu/about main.py
 
-# Blog & Web Tools
+## Blog & Web Tools
 - https://www.malastech.my.id
 - https://rasenmedia.my.id
 
-# Contact & Report Error
+## Contact & Report Error
 - https://wa.me/6281328303820
 
-# Contributor Malas Bot
+## Contributor Malas Bot
 1. Ridwan Nazarudin
 2. Afif Rahman Firmansyah
 3. Muhammad Ridho Ilahi
