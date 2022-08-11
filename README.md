@@ -1,5 +1,7 @@
 ![alt text](https://github.com/wannazid/Malas-Bot/blob/main/IMG_20220717_211701.jpg)
 # Malas Bot 
+![](https://img.shields.io/badge/Python-3.10.5-orange)
+&nbsp;
 Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegram sendiri, berbagai fitur yang akan selalu di update jika ada versi baru.
 
 ![](https://img.shields.io/badge/MalasBot-Version%201.2.0-orange)
