@@ -17,6 +17,9 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 ![](https://img.shields.io/badge/Support%20on-Linux-brightgreen)
 ![](https://img.shields.io/badge/Support%20on-Android-brightgreen)
 ```bash
+Install Git Right Now
+```
+```bash
 git clone https://github.com/wannazid/Malas-Bot
 ```
 ```bash
