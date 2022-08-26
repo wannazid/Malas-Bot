@@ -12,6 +12,9 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - Quotes Anime
 - Couple PP
 
+## Preview Bot
+- t.me/malasnge_bot
+
 # Installation
 ![](https://img.shields.io/badge/Support%20on-Windows-brightgreen)
 ![](https://img.shields.io/badge/Support%20on-Linux-brightgreen)
@@ -26,7 +29,7 @@ git clone https://github.com/wannazid/Malas-Bot
 cd Malas-Bot
 ```
 ```bash
-pip3 install -r req.txt
+pip3 install -r requirements.txt
 ```
 ```bash
 python3 malasbot.py
