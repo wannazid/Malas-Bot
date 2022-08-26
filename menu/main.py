@@ -27,7 +27,7 @@ def menu_bot():
     	𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱𝗲𝗿 📁
     	
     	• Tiktok Download No WM : /tt (link)
-    	• TT Musik Download : /ttmusik (link)
+    	• TT Musik Download : /ttaudio (link)
     	• IG Download (photo/video) : /igdl (link)
     	• Pinterest Download : /pinterest (search)
     	
@@ -93,9 +93,6 @@ def menu_bot():
     	
     	• Base64 Encode : /b64encode (string)
     	• Base64 Decode : /b64decode (b64)
-    	• Sha256 Encode : /sha256 (string)
-    	• Md5 Encode : /md5 (string)
-    	
     	
     	©2022 MalasBot - Telegram Bot.
     	
