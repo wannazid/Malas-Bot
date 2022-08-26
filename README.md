@@ -13,7 +13,7 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - Couple PP
 
 ## Preview Bot
-- t.me/malasnge_bot
+- https://t.me/malasnge_bot
 
 # Installation
 ![](https://img.shields.io/badge/Support%20on-Windows-brightgreen)
