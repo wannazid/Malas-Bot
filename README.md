@@ -127,13 +127,11 @@ python3 malasbot.py
 | ------------- | ------------- |
 | Base64 Encode|✅|
 | Base64 Decode|✅|
-| Md5 Encode|✅|
-| Sha256 Encode|✅|
 
 ## On Bot Every Day
 - VPS
 - Remote Desktop Protocol
-- Heroku
+- Heroku App
 
 ## Use API 
 - https://rasenmedia.my.id
