@@ -12,9 +12,6 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 - Quotes Anime
 - Couple PP
 
-## Preview Bot
-- https://t.me/malasnge_bot
-
 # Installation
 ![](https://img.shields.io/badge/Support%20on-Windows-brightgreen)
 ![](https://img.shields.io/badge/Support%20on-Linux-brightgreen)
