@@ -48,13 +48,13 @@ disp = Dispatcher(bot=bot)
 #Join And Leave Grup
 @disp.message_handler(content_types=['new_chat_members'])
 async def user_joined_grup(pesan: types.Message):
-    await pesan.answer(f'Selamat Datang Di Grup, Semoga Betah Ya :)')
+    await pesan.answer(f'Hai{USERNAME}Selamat Datang Di Grup, Semoga Betah Ya :)')
 
 @disp.message_handler(content_types=['left_chat_member'])
 async def user_leave_grup(pesan: types.Message):
 	first_name = pesan.from_user.first_name
 	last_name = pesan.from_user.last_name
-	await pesan.answer('Sempai Jumpa Bro, Semoga Bertemu Kembali:)')
+	await pesan.answer('Sampai Jumpa Bro, Semoga Bertemu Kembali:)')
 
 #Menu Tools
 @disp.message_handler(commands=['ttaudio'])
@@ -64,7 +64,7 @@ async def tt_download_musik(pesan: types.Message):
 	try:
 		ps = req.json()['respon']
 		video = ps['audio']
-		await pesan.answer('Tunggu Sebentar!')
+		await pesan.answer('Nungguin Ya🤭')
 		await pesan.answer(f'''
 		Klik Link Now
 		
@@ -81,7 +81,7 @@ async def tt_download_versi2(pesan: types.Message):
 	try:
 		ps = req.json()['respon']
 		video = ps['video']
-		await pesan.answer('Tunggu Sebentar!')
+		await pesan.answer('Nungguin Ya🤭')
 		await pesan.answer(f'''
 		Klik Link Now
 		
@@ -105,7 +105,7 @@ async def neko_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/nsfwNeko?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('Nungguin Ya🤭')
     await pesan.answer(ps['result'])
     
 @disp.message_handler(commands=['blowjob'])
@@ -114,7 +114,7 @@ async def blowjob_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/blowjob?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('Hayo mo ngapainn🤭')
     await pesan.answer(ps['result'])
     
 @disp.message_handler(commands=['gangbang'])
@@ -123,7 +123,7 @@ async def gangbang_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/gangbang?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('Sabar ngntodd!')
     await pesan.answer(ps['result'])
     
 @disp.message_handler(commands=['bdsm'])
@@ -132,7 +132,7 @@ async def bdsm_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/bdsm?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('Sabarr ngntodd!')
     await pesan.answer(ps['result'])
     
 @disp.message_handler(commands=['yuri'])
@@ -141,7 +141,7 @@ async def yuri_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/yuri?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('Tunggu bntran napa si!')
     await pesan.answer(ps['result'])
     
 @disp.message_handler(commands=['hentai'])
@@ -150,7 +150,7 @@ async def hentai_random(pesan: types.Message):
     config = config_malasbot()
     reqs = requests.get(f'https://raku-web.herokuapp.com/api/nsfw/hentai?apikey={config}')
     ps = reqs.json()
-    await pesan.answer('Tunggu Sebentar!')
+    await pesan.answer('bentar ya cakep nya el🤭')
     await pesan.answer_photo(types.InputFile.from_url(ps['result']))
     
 @disp.message_handler(commands=['animequote'])
@@ -162,7 +162,7 @@ async def random_quotes(pesan: types.Message):
 	kata = utuh['indo']
 	char = utuh['character']
 	anim = utuh['anime']
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Sabar ya todd')
 	await pesan.answer(f'''
 	{kata}
 	
@@ -206,7 +206,7 @@ async def random_waifu(pesan: types.Message):
 	gembi = open('tools/gembi.json','r').read()
 	randoms = random.randrange(2, 40)
 	utuh = json.loads(gembi)[randoms]
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Hayo mo coli lu yaa🧟‍♂️')
 	await pesan.answer_video(types.InputFile.from_url(utuh))
 
 @disp.message_handler(commands=['waifu'])
@@ -214,14 +214,14 @@ async def random_waifu(pesan: types.Message):
 	artinama = pesan.text.replace('/waifu','')
 	waifu = open('tools/waifu.json','r').read()
 	randoms = str(random.randrange(1, 200))
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Coli mulu ga cape apa😒')
 	await pesan.answer_photo(types.InputFile.from_url(json.loads(waifu)[randoms]))
 
 @disp.message_handler(commands=['animequotes'])
 async def anime_quotes(pesan: types.Message):
 	question = pesan.text.replace('/animequotes','')
 	req = requests.get('https://api.akuari.my.id/randomtext/quotesanime')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Tunggu Sebentar anjj!')
 	parse = req.json()['result']
 	nama_char = parse['char_name']
 	nama_anime = parse['anime']
@@ -240,7 +240,7 @@ async def couple_pp(pesan: types.Message):
 	parse = req.json()['respon']
 	laki = parse['male']
 	cewe = parse['female']
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('bentar ya dajjal')
 	await pesan.answer_photo(types.InputFile.from_url(laki))
 	await pesan.answer_photo(types.InputFile.from_url(cewe))
 
@@ -249,13 +249,13 @@ async def fakta_unik(pesan: types.Message):
 	artinama = pesan.text.replace('/faktaunik','')
 	req = requests.get(f'https://api.akuari.my.id/randomtext/faktaunik')
 	parse = req.json()['hasil']
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Sabarr yaa🤗')
 	await pesan.answer(parse)
 
 @disp.message_handler(commands=['cosplay'])
 async def cosplay_rand(pesan: types.Message):
 	cosplayku = pesan.text.replace('/cosplay','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Sabar ya kntol!')
 	await pesan.answer_photo(types.InputFile.from_url('https://api.akuari.my.id/randomimganime/cosplay'))
 
 @disp.message_handler(commands=['arti'])
@@ -276,20 +276,20 @@ async def random_anjing(pesan: types.Message):
 @disp.message_handler(commands=['renungan'])
 async def renungan_islam(pesan: types.Message):
 	renung = pesan.text.replace('/renungan','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('yg rajin ya ibadahnya🤗')
 	await pesan.answer_photo(types.InputFile.from_url('https://api.akuari.my.id/islami/renunganislam'))
 
 @disp.message_handler(commands=['husbu'])
 async def random_husbu(pesan: types.Message):
 	husbuku = pesan.text.replace('/husbu','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('bentar anj loding nya ga lama😡')
 	await pesan.answer_photo(types.InputFile.from_url('https://api.akuari.my.id/randomimganime/husbu'))
 
 @disp.message_handler(commands=['ph'])
 async def logo_ph(pesan: types.Message):
 	text = pesan.text.replace('/ph','')
 	text2 = text.split('|')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('sabar ya biar disayang aku🥰')
 	await pesan.answer_photo(types.InputFile.from_url(f'https://api.akuari.my.id/ephoto/pornhub?text={text2[0]}&text_2={text2[1]}'))
 
 @disp.message_handler(commands=['qjamannow'])
@@ -298,31 +298,31 @@ async def bacot(pesan: types.Message):
 	req = requests.get('https://api.akuari.my.id/randomtext/bacot')
 	parse = req.json()['hasil']
 	hasil = parse['result']
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Mo liat apa?')
 	await pesan.answer(hasil)
 
 @disp.message_handler(commands=['logoninja3'])
 async def logo_ninja(pesan: types.Message):
 	text = pesan.text.replace('/logoninja3','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer_photo(types.InputFile.from_url(f'https://api.akuari.my.id/ephoto/team-logo-ninja-3?text={text}'))
 
 @disp.message_handler(commands=['logoninja2'])
 async def logo_ninja(pesan: types.Message):
 	text = pesan.text.replace('/logoninja2','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer_photo(types.InputFile.from_url(f'https://api.akuari.my.id/ephoto/team-logo-ninja-2?text={text}'))
 
 @disp.message_handler(commands=['logoninja'])
 async def logo_ninja(pesan: types.Message):
 	text = pesan.text.replace('/logoninja','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer_photo(types.InputFile.from_url(f'https://api.akuari.my.id/ephoto/team-logo-ninja-1?text={text}'))
 
 @disp.message_handler(commands=['katabijak'])
 async def kata_bijak(pesan: types.Message):
 	kb = pesan.text.replace('/katabijak','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	req = requests.get(f'https://api.akuari.my.id/randomtext/katabijak')
 	parse = req.json()['hasil']
 	quote = parse['quotes']
@@ -337,13 +337,13 @@ async def e_photo(pesan: types.Message):
 	text = pesan.text.replace('/ephoto','')
 	req = requests.get(f'https://api.akuari.my.id/ephoto/scraper-1?text={text}&link=https://en.ephoto360.com/online-blackpink-style-logo-maker-effect-711.html')
 	parse = req.json()['respon']
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer_photo(types.InputFile.from_url(parse))
 	
 @disp.message_handler(commands=['asmaulhusna'])
 async def asmaul_husna(pesan: types.Message):
 	linkurl = pesan.text.replace('/asmaulhusna','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	req = requests.get(f'https://api.akuari.my.id/islami/asmaulhusna')
 	parse = req.json()['result']
 	no = parse['number']
@@ -387,7 +387,7 @@ async def ig_downloader(pesan: types.Message):
 	try:
 		parse = req.json()['result']
 	except:
-		parse = 'URL Error!'
+		parse = 'URL nya gbisa gblok'
 	await pesan.answer(parse)
 	
 @disp.message_handler(commands=['wiki'])
@@ -399,13 +399,13 @@ async def textpro3(pesan: types.Message):
 		hasil = parse["result"]
 	except:
 		parse = 'Tidak ditemukan di wikipedia!'
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer(hasil)
 	
 @disp.message_handler(commands=['cecan'])
 async def textpro3(pesan: types.Message):
 	text = pesan.text.replace('/cecan','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('Nungguin Ya🤭')
 	await pesan.answer_photo(f'https://hadi-api.herokuapp.com/api/randomImage/cecan')
 
 @disp.message_handler(commands=['megumin'])
@@ -464,13 +464,13 @@ async def ss_website(pesan: types.Message):
 @disp.message_handler(commands=['loli'])
 async def gambar_loli(pesan: types.Message):
 	lolicon = pesan.text.replace('/loli','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('bentar ya sayangg')
 	await pesan.answer_photo('https://hadi-api.herokuapp.com/api/loli')
 
 @disp.message_handler(commands=['wpanime'])
 async def wp_anime(pesan: types.Message):
 	random = pesan.text.replace('/wpanime','')
-	await pesan.answer('Tunggu Sebentar!')
+	await pesan.answer('bentar ya sayangg')
 	await pesan.answer_photo('https://hadi-api.herokuapp.com/api/walpaperanime')
 
 @disp.message_handler(commands=['kucing'])
@@ -582,7 +582,7 @@ keyboard1 = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True).ad
 
 @disp.message_handler(commands=['start', 'help'])
 async def start_bot(pesan: types.Message):
-	await pesan.reply('𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗠𝗮𝗹𝗮𝘀𝗕𝗼𝘁, 𝗦𝗲𝗹𝗲𝗰𝘁 𝗠𝗲𝗻𝘂 ❗',reply_markup=keyboard1)
+	await pesan.reply('Welcome manusia setengah dajjal💦',reply_markup=keyboard1)
 
 @disp.message_handler()
 async def keyboard_answer(pesan: types.Message):
