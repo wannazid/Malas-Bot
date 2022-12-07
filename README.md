@@ -151,9 +151,7 @@ Merubah menu,about bisa di folder menu/about main.py
 - https://rasenmedia.my.id
 
 ## Contact & Report Error
-- https://wa.me/6281328303820
+- https://wa.me/6287762218425
 
 ## Contributor Malas Bot
-1. Ridwan Nazarudin
-2. Afif Rahman Firmansyah
-3. Muhammad Ridho Ilahi
+- X Draxxell
