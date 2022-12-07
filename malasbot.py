@@ -32,7 +32,7 @@ def banner():
                
                    Version : 0.2
                      
-         Get MalasBot : github.com/wannazid                                                                                                                        
+         Get MalasBot : github.com/christofel56                                                                                                                       
      ''')
 banner()
 
