@@ -94,6 +94,6 @@ def menu_bot():
     	• Base64 Encode : /b64encode (string)
     	• Base64 Decode : /b64decode (b64)
     	
-    	©2022 MalasBot - Telegram Bot.
+    	©2022 DraxxellBot - Telegram Bot.
     	
-    	'''
+    	''')
