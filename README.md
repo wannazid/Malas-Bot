@@ -20,7 +20,7 @@ Bot Telegram - yang akan mempermudah pengguna yang ingin coba membuat bot telegr
 Install Git Right Now
 ```
 ```bash
-git clone https://github.com/wannazid/Malas-Bot
+git clone https://github.com/christofel56/Malas-Bot
 ```
 ```bash
 cd Malas-Bot
